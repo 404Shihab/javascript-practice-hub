@@ -1,0 +1,37 @@
+## var
+
+-Old method
+
+-Can be re-declared
+
+-Not block scoped
+
+-Avoided 
+
+## let
+
+-Modern method
+
+-Cannot be re-declared
+
+-Value can be changed
+
+-Block scoped
+
+-Most used
+
+## const
+
+-Used for fixed values
+
+-Cannot be re-declared & reassigned
+
+-Block scoped
+
+-Inner values of object/array can be changed
+
+###Rule
+
+-Need change -> let
+-No change needed -> const
+-var -> avoid 
