@@ -85,3 +85,13 @@ console.log(unknownId); // null
 if (unknownId !== null) {
     console.log(unknownId.innerText);
 }
+
+
+//query selector all
+const classSelector = document.querySelectorAll('.food .name');
+for (const food of classSelector) {
+    console.log(food.innerText);
+    
+}
+
+
