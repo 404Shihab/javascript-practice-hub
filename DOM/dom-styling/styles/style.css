@@ -1,0 +1,24 @@
+h1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* ul li{
+    color: blueviolet;
+    font-weight: 800;
+} */
+
+
+.bg
+{
+    background-color: chartreuse;
+}
+.thin
+{
+    font-weight: 100;
+}
+.border
+{
+    border: 10px solid blue;
+}
