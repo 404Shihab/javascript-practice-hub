@@ -94,4 +94,25 @@ for (const food of classSelector) {
     
 }
 
+//query selector all
+const classSelect = document.querySelector('.name-list .name');
+console.log(classSelect.innerText);
+
+
+// querySelectorAll --- returns all matching elements (NodeList)
+// querySelector --- returns only the first matching element (Single Element)
+
+
+//--------------------------------------------------------------
+// getElementById - selects one element by ID (returns single element)
+
+// getElementsByClassName - selects all elements by class (returns live HTMLCollection)
+
+// getElementsByTagName - selects all elements by tag name (returns live HTMLCollection)
+
+// querySelector - selects first matching element using CSS selector (returns single element)
+
+// querySelectorAll - selects all matching elements using CSS selector (returns static NodeList)
+
+
 
