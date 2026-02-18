@@ -1,0 +1,8 @@
+.section-card{
+    background-color: cadetblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    border: 5px solid darkblue;
+    color:white;
+    margin-bottom: 20px;
+}
