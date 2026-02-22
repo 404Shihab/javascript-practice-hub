@@ -43,6 +43,12 @@ function makePurple (){
 }
 
 
+//option:4 eventEventListener
+
+document.getElementById('btn-make-green').addEventListener('click',function makeGreen(){
+    document.body.style.backgroundColor='green';
+})
+
 // =======================================
 // Revision Notes
 // =======================================
@@ -55,3 +61,30 @@ function makePurple (){
 // Important:
 // makePurple   → function reference
 // makePurple() → function execution
+
+// =======================================
+// Revision Notes (Event Handling Methods) (From gpt)
+// =======================================
+
+// 1️⃣ Inline HTML event (onclick="")
+//    ❌ Not recommended for real projects
+//    ❌ Mixes HTML and JavaScript
+//    ✔ Okay for very small demos
+
+// 2️⃣ element.onclick = function()
+//    ✔ Simple and easy
+//    ❌ Only one click handler can exist at a time
+//    (New assignment will overwrite previous one)
+
+// 3️⃣ element.onclick = functionName
+//    ✔ Cleaner than inline
+//    ❌ Still limited to one handler
+
+// 4️⃣ addEventListener('click', function)
+//    ✅ BEST and most professional method
+//    ✅ Allows multiple event listeners on same element
+//    ✅ Cleaner and scalable
+//    ✅ Most commonly used in real-world projects
+
+// ⭐ Recommended:
+// Always prefer addEventListener() in modern JavaScript.
